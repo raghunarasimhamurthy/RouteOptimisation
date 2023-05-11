@@ -1,25 +1,37 @@
-import logo from './logo.svg';
+
+import React from "react";
 import './App.css';
+import styled from 'styled-components'
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faCircle , faAngry} from '@fortawesome/free-solid-svg-icons'
+
+import { Demo, DashBoard, NavBar, SideBar , RequestForm , Map } from './components'
+import { Outlet } from "react-router-dom";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Wrapper>  
+      {/* <Map /> */}
+     <NavBar />
+     <main id="section" >
+     <SideBar />
+     <Outlet />
+     </main>
+    </Wrapper>
   );
 }
 
+const Wrapper = styled.div`
+#section{
+  display : grid;
+  grid-template-columns: 20% auto;
+  column-gap: 1rem; 
+}
+`
+
 export default App;
+library.add(faCircle);
+

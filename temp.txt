@@ -1,0 +1,61 @@
+{
+  "VerifyData": {
+    "RequestID": "72a26926-3416-4c9d-b3c4-1174d4729f44",
+    "NumberofLocations": 10,
+    "ContainsLocationID": "YES",
+    "ContainsLatLog": "YES",
+    "ContainsLocationName": "YES",
+    "latlngDetails": [
+      {
+        "latitude": 12.9568867,
+        "longitude": 77.5861919,
+        "LocationName": "71, Lal Bagh Main Rd, opp. urvashi theater, Sudhama Nagar, Bengaluru, Karnataka 560027,"
+      },
+      {
+        "latitude": 12.93546,
+        "longitude": 77.69087,
+        "LocationName": "Swamy Legato, Khata No. 330 Outer Ring Road, Sy No. 20, 7, Kadubeesanahalli, Sarjapur, Bengaluru, Karnataka 560103,"
+      },
+      {
+        "latitude": 12.9391373,
+        "longitude": 77.6946604,
+        "LocationName": "Ground Floor, Swamy Legato, 20/7, Dr Puneeth Rajkumar Rd, Kadubeesanahalli, Marathahalli, Bengaluru, Karnataka 560103,"
+      },
+      {
+        "latitude": 12.9229769,
+        "longitude": 77.4954265,
+        "LocationName": "Sy.No. 78/2, Mysore Rd, near RV College of Engineering, Valagerahalli, Bengaluru, Karnataka 560059,"
+      },
+      {
+        "latitude": 12.908385,
+        "longitude": 77.5854262,
+        "LocationName": "No 8A, 8B, 24th Main Rd, 1st Phase, J. P. Nagar, Bengaluru, Karnataka 560078,"
+      },
+      {
+        "latitude": 12.9857245,
+        "longitude": 77.7087608,
+        "LocationName": "19/A, Hoodi Main Rd, Doddanakundi Industrial Area 2, Seetharampalya, Hoodi, Bengaluru, Karnataka 560048,"
+      },
+      {
+        "latitude": 13.0231923,
+        "longitude": 77.6450302,
+        "LocationName": "No. 5AC-722 & 724, Ground and 1st floor, 8th Main Rd, HRBR Layout 1st Block, Bengaluru, Karnataka 560043"
+      },
+      {
+        "latitude": 12.8781383,
+        "longitude": 77.6471585,
+        "LocationName": "Singasandra Village, 3/3, Service Rd, Opposite Pillar No. 118, Uttarahalli Hobli, Bengaluru, Karnataka 560068,"
+      },
+      {
+        "latitude": 13.0989064,
+        "longitude": 77.5997694,
+        "LocationName": "Survey #99 Yelahanka Village, Yelahanka Old Town, near Flower market, Karnataka 560064,"
+      },
+      {
+        "latitude": 13.0544261,
+        "longitude": 77.5960248,
+        "LocationName": "Godrej Woodsman Estate, Hebbal Kempapura, Bengaluru, Karnataka 560092,"
+      }
+    ]
+  }
+}
